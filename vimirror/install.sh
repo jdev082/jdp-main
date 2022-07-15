@@ -1,8 +1,8 @@
 #!/bin/bash
 name=vimirror
+export RAND=$RANDOM
 
 function init() {
-	export RAND=$RANDOM
 	mkdir /tmp/$RAND
 }
 
