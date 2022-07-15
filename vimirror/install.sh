@@ -15,3 +15,6 @@ function install() {
 	sudo make install
 }
 
+function remove() {
+	sudo rm -rf /usr/bin/vimirror
+}
