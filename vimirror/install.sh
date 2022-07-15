@@ -2,7 +2,7 @@
 name=vimirror
 
 function init() {
-	RAND=$RANDOM
+	export RAND=$RANDOM
 	mkdir /tmp/$RAND
 }
 
