@@ -14,14 +14,7 @@ the template is:
 #!/bin/bash
 name=packagename
 export RAND=$RANDOM # don't change, comment, or remove this line
-
-function init() {
-	mkdir /tmp/$RAND # dont change, comment, or remove this line
-}
-
-function get_source() {
-	# commands to retreive source or binary package
-}
+export sources='url to git sources'
 
 function install() {
   # commands to install your package
