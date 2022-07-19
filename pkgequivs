@@ -1,3 +1,4 @@
+#!/bin/bash
 # rick package management is only available on arch
 export pkgs = ( "python" )
 export pkg_name = ( "python" )
